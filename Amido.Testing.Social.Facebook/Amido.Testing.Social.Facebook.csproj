@@ -62,9 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boostrap.cs" />
     <Compile Include="Configuration\FacebookConfigurationElement.cs" />
     <Compile Include="FacebookUserService.cs" />
     <Compile Include="Models\FacebookUser.cs" />
+    <Compile Include="PageObjects\FacebookAllowAppPageObject.cs" />
     <Compile Include="PageObjects\FacebookSigninPageObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
